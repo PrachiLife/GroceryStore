@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://kit.fontawesome.com/da5c896c3e.js" crossorigin="anonymous"></script>
+	<meta charset="UTF-8">  <!-- It covers almost all the characters and symbols in the world -->
+	<title>Grocery Store</title>
+	<link rel="stylesheet" type="text/css" href="./Css_File/index_utility_css.css">
+	<link rel="stylesheet" type="text/css" href="./Css_File/index_css.css">
+	<link rel="stylesheet"  href="./Css_File/index_phone_css.css" media="screen and (max-width:1190px)">
+</head>
+<body onload="loading()">
+
+<!-- Apply loader in page Start -->
+	<div id="loader"></div>
+<!-- Apply loader in page End -->
+
+
+
+
+<!-- Nav Section Begins-->
+
+	 	<nav id="nav">
+		<div class="nav_left">
+			<a href="index.html">
+				<img src="./Photos/logo(2).jpg" class="img_logo" alt="logo(2)"></img>
+			</a>
+			<div class="img_logo_heading">Grocery Store</div>
+		</div>
+		<div class="nav_mid">
+			<a href="index.html" class="col">Home</a>
+			<a href="Food_deals.html" class="col">Deals</a>
+			<a href="AboutUs_Food.html" class="col">About Us</a>
+			<a href="contact_Food.html" class="col">Contact Us</a>
+		</div>
+		<div class="nav_right">
+				<a href="https://www.twitter.com" target="_blank">
+					<img src="./Photos/twitter.png" class="img_logo" alt="twitter"></img>
+				</a>
+				<a href="https://www.instagram.com" target="_blank">
+					<img src="./Photos/instagram.png" class="img_logo" alt="instagram"></img>
+				</a>
+				<a href="https://www.facebook.com/" target="_blank">
+					<img src="./Photos/facebook.png" class="img_logo" alt="facebook"></img>
+				</a>
+				<div>
+					<a href="register_Food.html" class="register">Register Yourself</a>
+				</div>
+		</div>
+	</nav>
+ 
+<!-- Nav Section Ends -->
+
+<!-- Slider Section Begins -->
+		<div class="slider_content">
+				<!-- <h1>WELCOME TO GROCERY STORE</h1>
+				<h2>Committed For Best Quality Products</h2>
+				 -->
+			 	<div id="slider_photos">
+					<img src="./Photos/slider1.jpg" alt="slider1">
+				</div>
+				<button onclick="prev_image()" class="prev"><img src="./Photos/arrow-left.png" alt="arrow-left"></button>
+				<button onclick="next_image()" class="next"><img src="./Photos/arrow-right.png" alt="arrow-right"></button>
+		</div>
+<!-- Slider Section Ends-->
+
+
+
+<!-- Choose Us Start-->
+	 		<div class="choose">
+				<div class="choose_left">
+					<div class="left_container1">
+						WHY WE?
+					</div>
+					<div class="left_container2">
+						<img src="./Photos/meal_salad.jpg" alt="meal_salad"></img>
+					</div>	
+					<div class="left_content">
+						You can find everything in one place rather than visit to multiple stores.you can buy online as well as pick up in store as per your comfort.We provide inventory information online as well give all information about sales,discounts through SMS,optimize our website for local searches at regular intervals.  
+					</div>
+				</div>
+				<div class="choose_right">
+					<div class="right_container_1">
+						<div class="right_container_r_1">
+							<img src="./Photos/FreshOrange.png" alt="FreshOrange"></img>
+							<h3>Organic Products</h3>
+							<p>These Products are grown under a system of agriculture without the use of Chemical fertilizers and pesticides</p>
+						</div>
+						<div class="right_container_r_2">
+							<img src="./Photos/organicGuava.png" alt="organicGuava"></img>
+							<h3>Quality Products</h3>
+							<p>The products are of best quality with good flavour,odour,taste as well as good packaging.</p>
+						</div>
+					</div>
+					<div class="right_container_2">
+						<div class="right_container_r_1">
+							<img src="./Photos/onTimeDelivery.jpg" alt="onTimeDelivery"></img>
+							<h3>On Time Delivery</h3>
+							<p>All the product are deliver on time.Delivery boys will give you an OTP on your phone through SMS.You only have to give OTP as well as payment to the Delivery Boy.</p>
+						</div>
+						<div class="right_container_r_2">
+							<img src="./Photos/Natural_Foods.png" alt="Natural_Foods"></img>
+							<h3>Natural Food</h3>
+							<!-- <p>The products are of best quality with good flavour,odour,taste as well as good packaging.</p> -->
+							<p>The product are of best quality as well as have the best taste.</p>
+						</div>
+					</div>
+				</div>
+		</div>
+<!-- Choose Us End-->
+
+<!--Customer Review start -->
+ <div class="Review">
+	<div class="shop Review_heading">Customer's Review</div>
+	<div class="Review_start">
+		<span class="comment">
+			<div><img  src="./Photos/commentPhoto1.jpg" class="commentPhoto"></div>
+			<div>I am happy with the Products and the deal I got from the grocery Store.I always wanted a Organic,Natural food that is not expensive.Speaking with the service team helped me get exactly what I was looking for.Also the products are of best quality
+			wth good flavour,odour,taste as well as good packaging.</div>
+			<div class="name_comment">Elsa</div>
+			<div>
+				<img src="./Photos/rating.png" class="rating">
+				<img src="./Photos/rating.png" class="rating">
+				<img src="./Photos/rating.png" class="rating">
+				<img src="./Photos/rating.png" class="rating">
+				<img src="./Photos/rating2.jpg" class="rating">
+			</div>
+		</span>
+		<span class="comment">
+			<div><img  src="./Photos/commentPhoto2.jpg" class="commentPhoto"></div>
+			<div>I am happy with the Products and the deal I got from the grocery Store.I always wanted a Organic,Natural food that is not expensive.Speaking with the service team helped me get exactly what I was looking for.Also the products are of best quality
+			wth good flavour,odour,taste as well as good packaging.</div>
+			<div class="name_comment">John</div>
+			<div>
+				<img src="./Photos/rating.png" class="rating">
+				<img src="./Photos/rating.png" class="rating">
+				<img src="./Photos/rating.png" class="rating">
+				<img src="./Photos/rating.png" class="rating">
+				<img src="./Photos/rating.png" class="rating">
+			</div>
+		</span>
+		
+		<span class="comment">
+			<div><img  src="./Photos/commentPhoto3.jpg" class="commentPhoto"></div>
+			<div>I am happy with the Products and the deal I got from the grocery Store.I always wanted a Organic,Natural food that is not expensive.Speaking with the service team helped me get exactly what I was looking for.Also the products are of best quality
+			wth good flavour,odour,taste as well as good packaging.</div>
+			<div class="name_comment">Laura</div>
+			<div>
+				<img src="./Photos/rating.png" class="rating">
+				<img src="./Photos/rating.png" class="rating">
+				<img src="./Photos/rating.png" class="rating">
+				<img src="./Photos/rating.png" class="rating">
+				<img src="./Photos/rating2.jpg" class="rating">
+			</div>
+		</span>
+		
+		<span class="comment">
+			<div><img  src="./Photos/commentPhoto4.jpg" class="commentPhoto"></div>
+			<div>I am happy with the Products and the deal I got from the grocery Store.I always wanted a Organic,Natural food that is not expensive.Speaking with the service team helped me get exactly what I was looking for.Also the products are of best quality
+			wth good flavour,odour,taste as well as good packaging.</div>
+			<div class="name_comment">Watson</div>
+			<div>
+				<img src="./Photos/rating.png" class="rating">
+				<img src="./Photos/rating.png" class="rating">
+				<img src="./Photos/rating.png" class="rating">
+				<img src="./Photos/rating.png" class="rating">
+				<img src="./Photos/rating.png" class="rating">
+			</div>
+		</span>
+	</div>
+	
+</div>
+
+<!-- Customer Review End -->
+
+<!-- footer section Start -->
+<footer>
+	<div class="footer">
+		copyright &copy; www.groceryStore1.com
+	</div>
+</footer>
+<!-- footer section End-->
+
+<script type="text/javascript" src="./Javascript_File/index_food_javascript.js"></script>
+<script type="text/javascript" src="./Javascript_File/toggle.js"></script>
+</body>
+</html>

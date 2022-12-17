@@ -1,0 +1,24 @@
+.about_us
+{
+	position:relative;
+	top:80px;
+	margin: 10px;
+}
+.about_heading
+{
+	font-family: var(--font2);
+    font-size: 2.5rem;
+    text-decoration: underline;
+    /* margin: 10px; */
+    margin-bottom: 20px;
+}
+.about_content
+{
+	font-family: var(--font1);
+	text-align:justify;
+	font-size:14px;
+}
+hr
+{
+	margin: 10px 0px;
+}

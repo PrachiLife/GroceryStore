@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Roboto&display=swap');
+*
+{
+	margin:0px;
+	padding: 0px;
+}
+:root
+{
+	--font1:'Baloo Bhai 2', cursive;;
+	--font2:'Roboto', sans-serif;
+}
+#loader
+{
+	background: url("../Photos/loader_gif.gif") white no-repeat center;
+	min-height: 100vh;
+	position: fixed;
+	z-index:2;
+	width: 100%;
+}
+.cartQuantityValue
+{
+	border: 2px solid black;
+    border-radius: 4px;
+}
+.removeButton
+{
+    background-color: #fb0505ba;
+    border-radius: 4px;
+    /* color: white; */
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid black;
+}

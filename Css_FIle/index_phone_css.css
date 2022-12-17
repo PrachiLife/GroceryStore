@@ -1,0 +1,85 @@
+#nav
+{
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+}
+#slider_photos img
+{
+	height:600px;
+	width: 100vw;
+}
+.img_1
+{
+	width:5vw;
+	height: 5vh;
+}
+.contact
+{
+	height: auto;
+	padding-bottom: 70px;
+}
+.next,.prev
+{
+	top:28%;
+}
+.footer
+{
+	font-size: 2.5vw;
+}
+/*toggle css start*/
+.nav_mid
+{
+	display:none;
+}
+#menu
+{
+/*	width: 2em;*/
+    display: block;
+    font-size: 2em;
+    position:fixed;
+   	top:100px;
+    left: 50px;
+    color:white;
+    z-index: 1;
+}
+/*toggle css end*/
+
+/*choose start*/
+.choose
+{
+	display:flex;
+	flex-direction:column;
+}
+.choose_left,.choose_right
+{
+	padding: 20px;
+	width: 90%;
+	margin: auto;
+}
+.left_container2 img
+{
+	width:40vw;
+	/*height: auto;*/
+}
+/*choose end*/
+
+/*Review start*/
+.Review_start
+{
+	display:flex;
+	flex-direction:column;
+}
+.comment div
+{
+	font-size:15px;
+}
+/*Review end*/
+
+/*product css start*/
+.product
+{
+	font-size: 18px;
+}
+/*product start end*/

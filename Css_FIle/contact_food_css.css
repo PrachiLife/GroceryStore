@@ -1,0 +1,43 @@
+.user_container
+{
+	position: relative;
+	top:80px;
+	width:90%;
+	margin:auto;
+	background:linear-gradient(45deg,rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url("../Photos/contact.jpg") ;
+	background-size: 100% 100%;
+	color: white;
+	display: flex;
+	font-family: var(--font1);
+	padding: 20px;
+	flex-direction: column;	
+	margin-bottom: 150px;
+	/*height:54vh;*/
+}
+.user_container_content
+{
+
+}
+.heading_2
+{
+	font-size:2vw;
+	font-weight:bold;
+	padding-bottom: 10px;
+}
+/*.info
+{
+	display: flex;
+	flex-direction: column;
+}*/
+.info input,textarea
+{
+	padding: 10px;
+	margin-bottom: 6px;
+	border-radius: 5px;
+	border: 2px solid black;
+	width: 50%;
+}
+.info button
+{
+	width:50%;
+}

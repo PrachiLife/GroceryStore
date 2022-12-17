@@ -1,0 +1,57 @@
+.register_block
+{
+	/*border:2px solid black;*/
+	margin:20px auto;
+	width:40%;
+	font-family: var(--font1);
+}
+.m_auto
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.register_user_data
+{
+	border:2px solid #80808061;
+	padding:20px;
+	border-radius:5px;
+	margin:25px 0px 70px 0px;
+}
+.register_heading
+{
+	font-size:35px;
+	font-weight:bold;
+}
+.registration_form div
+{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+}
+.registration_form_heading
+{
+	font-weight:bold;
+	font-size:15px;
+}
+.registration_form_input
+{
+	padding:5px;
+}
+.registration_form_input:focus
+{
+	box-shadow: 0px 0px 15px #497aef;
+}
+.password_info
+{
+	font-size: 15px;
+	color:#000000d4;
+}
+.product_button_width
+{
+	width:100%;
+}
+#registered
+{
+	border:2px solid black;
+}
